@@ -10,6 +10,6 @@
 - `cd website-crawler`
 - `npm install`
 ### Open up the index.js file. Here you can set the url of the website you want to crawl and the filetypes that you want to look for. Once that is set, save the file can go back to your terminal.
-### Run the following command
+### Run the following command in your terminal (make sure you are still in the same directory as index.js)
 - `node index.js`
 ### It will take a few minutes to crawl the website. Once it is done, there should be a new file called 'url-list.txt' that will contain the list of webpages that you searched for.
