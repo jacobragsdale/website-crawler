@@ -16,7 +16,7 @@ siteMapGenerator.on('done', () => {
     let urlList = [];
     jsonData.forEach(url => {if (fileTypes.some(type => url['loc'].includes(type))){urlList.push(url['loc'])}});
 
-    const file = fs.createWriteStream('pdf-list.txt');
+    const file = fs.createWriteStream('url-list.txt');
     urlList.forEach(url => { file.write(url + '\n'); });
     file.end();
 
